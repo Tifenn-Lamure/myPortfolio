@@ -5,7 +5,7 @@ import Home from "./pages/home/home";
 import MyProjects from "./pages/myprojects/myprojects";
 import Resume from "./pages/myResume/myResume";
 import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
+// import Footer from "./components/footer/footer";
 
 function RouterComponent() {
   return (
