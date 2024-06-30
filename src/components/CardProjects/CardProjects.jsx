@@ -27,7 +27,7 @@ function CardProjects ({ImgProjectSrc, AltImgProjectSrc, TextProject, LinkProjec
             }
           </div>
       </div>
-      <div className={`h-[24rem] w-full bg-dark-violet border-black border-y-4 absolute top-4 z-0 ${IsAtLeft ? 'border-r-4 rounded-r-lg right-2' : 'border-l-4 rounded-l-lg left-2'}`}></div>
+      <div className={`h-[24rem] w-[98%] bg-dark-violet border-black border-y-4 absolute top-4 z-0 ${IsAtLeft ? 'border-r-4 rounded-r-lg' : 'border-l-4 rounded-l-lg right-0'}`}></div>
     </div>
   )
 };
