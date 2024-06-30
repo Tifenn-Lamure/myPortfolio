@@ -12,7 +12,7 @@ function RouterComponent() {
       <Router>
         <div className="flex flex-col h-full">
           <Header/>
-          <div className="w-full bg-light-violet h-full">
+          <div className="w-full h-full">
           <Routes>
               <Route path="/" element={<Home/>}></Route>
               <Route path="/projects" element={<MyProjects/>}></Route>

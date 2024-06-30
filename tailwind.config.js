@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       colors: {
         'dark-violet': '#5E64F2',
-        'light-violet': '#9595DD'
+        'light-violet': '#9595DD',
+        'very-light-violet': '#D7DCFF',
       }
     },
   },
