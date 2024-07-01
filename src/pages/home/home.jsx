@@ -18,7 +18,7 @@ const Home = () => {
             <div className="bg-white h-16 w-80 flex items-center justify-center rounded-lg border-4 border-black z-0"></div>
           </div>
         </div>
-        <img src={TiaraPic} className="w-1/4 flex items-center" alt="drawing of me"/>
+        <img src={TiaraPic} className="w-1/4" alt="drawing of me"/>
       </div>
     </>
   )
