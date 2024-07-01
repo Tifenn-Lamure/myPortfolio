@@ -18,7 +18,7 @@ function CardProjects ({ImgProjectSrc, AltImgProjectSrc, TextProject, LinkProjec
               </div>
             :
             <div className="flex flex-col gap-[1rem] items-center">
-              <SkillBtn SkillBtnText="SASS" BtnColorBack="bg-very-light-violet" BtnColorFront="bg-dark-violet"/>
+              <SkillBtn BtnWidth="w-48" SkillBtnText="SASS" BtnColorBack="bg-very-light-violet" BtnColorFront="bg-dark-violet" className="w-48"/>
               <a href={LinkProject} target="_blank" className="text-xl text-white hover:underline mb-4">Click for my repositories</a>
               <div className="h-[48px] flex flex-col align-center justify-center">
                 <button className=" text-2xl text-center w-48 bg-very-light-violet rounded-lg border-black border-4 relative z-10 hover:text-lg hover:h-8 hover:w-44 hover:leading-6" onClick={() => setViewMore(false)}>View Less</button>
