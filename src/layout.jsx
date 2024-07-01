@@ -10,9 +10,9 @@ import Header from "./components/header/header";
 function RouterComponent() {
   return (
       <Router>
-        <div className="flex flex-col h-full">
+        <div className="flex flex-col h-[100vh]">
           <Header/>
-          <div className="w-full h-full">
+          <div className="w-full h-[100vh]">
           <Routes>
               <Route path="/" element={<Home/>}></Route>
               <Route path="/projects" element={<MyProjects/>}></Route>

@@ -13,7 +13,7 @@ const Home = () => {
             <Link to={`/resume`} className="bg-dark-violet h-16 w-80 flex items-center justify-center rounded-lg border-4 border-black absolute z-10 m-10 bottom-2 right-2 text-3xl text-white font-light hover:bottom-0 hover:right-0">All about me</Link>
             <div className="bg-white h-16 w-80 flex items-center justify-center rounded-lg border-4 border-black z-0 m-10"></div>
           </div>
-          <div className="relative m-6-">
+          <div className="relative">
             <Link to={`/projects`} className="bg-dark-violet h-16 w-80 flex items-center justify-center rounded-lg border-4 border-black absolute z-10 bottom-2 right-2 text-3xl text-white font-light hover:bottom-0 hover:right-0">My projects</Link>
             <div className="bg-white h-16 w-80 flex items-center justify-center rounded-lg border-4 border-black z-0"></div>
           </div>

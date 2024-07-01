@@ -2,11 +2,12 @@ import React from "react";
 import TiaraPic from "./../../assets/img/TiaraPic.PNG";
 import QrcodePic from "./../../assets/img/qrcode.png";
 import SkillBtn from "../../components/SkillBtn/SkillBtn";
+import CvPdf from '../../assets/pdf/CV_Tifenn_LAMURE.pdf';
 
 const Resume = () => {
   return(
     <>
-      <div className="bg-dark-blue-violet h-[100vh] flex flex-col gap-10">
+      <div className="bg-dark-blue-violet flex flex-col gap-10">
 
         <div className="mt-[4em] w-full">
           <div className="relative mx-[4em]">
@@ -32,7 +33,7 @@ const Resume = () => {
             <div className="h-[24rem] bg-light-violet w-[100%] bg-dark-violet border-black border-4 absolute rounded-lg top-4 left-4 z-0"></div>
           </div>
 
-          <div className="h-full flex flex-col justify-between">
+          <div className="flex flex-col justify-between">
             <SkillBtn SkillBtnText="HTML" BtnColorBack="bg-very-light-violet" BtnColorFront="bg-dark-violet"/>
             <SkillBtn SkillBtnText="CSS/SCSS" BtnColorBack="bg-[#B7B7F0]" BtnColorFront="bg-[#7171D4]"/>
             <SkillBtn SkillBtnText="JAVASCRIPT" BtnColorBack="bg-[#6E6EBC]" BtnColorFront="bg-light-violet"/>
@@ -41,7 +42,7 @@ const Resume = () => {
             <SkillBtn SkillBtnText="ADOBE/FIGMA" SkillBtnTextColor="text-black" BtnColorBack="bg-dark-blue-violet" BtnColorFront="bg-white"/>
           </div>
 
-          <div className="h-full flex flex-col justify-between max-w-[15rem]">
+          <div className="flex flex-col justify-between max-w-[15rem]">
 
             <div className="flex gap-4 justify-between">
               <div className="relative">
@@ -75,6 +76,11 @@ const Resume = () => {
 
           </div>
         </div>
+
+        <a href={CvPdf} without rel="noopener noreferrer" target="_blank" className="relative mx-auto mt-[3rem] mb-8 w-80">
+          <div className="bg-dark-violet h-16 w-80 flex items-center justify-center rounded-lg border-4 border-black absolute z-10 bottom-2 left-0 text-3xl text-white font-light hover:bottom-0 hover:left-2 hover:cursor-pointer">Resume</div>
+          <div className="bg-white h-16 w-80 flex items-center relative left-2 justify-center rounded-lg border-4 border-black z-0"></div>
+        </a>
         
       </div>
     </>
