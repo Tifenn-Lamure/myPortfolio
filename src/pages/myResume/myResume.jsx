@@ -27,7 +27,7 @@ const Resume = () => {
             <div className="w-[100%] h-[24rem] bg-white border-black border-4 relative rounded-lg z-10 flex flex-col items-center overflow-hidden">
               <div className="w-full border-b-4 text-2xl bg-very-light-violet border-black pl-6 text-dark-violet">Github</div>
               <div className="overflow-hidden h-full w-full max-h-[95%] flex justify-center items-center">
-                <img className="w-full max-w-[330px] max-h-[330px] aspect-square" src={QrcodePic}/>
+                <img className="w-full max-w-[330px] max-h-[330px] aspect-square" src={QrcodePic} alt="the QR code link to my Linkedin"/>
               </div>
             </div>
             <div className="h-[24rem] bg-light-violet w-[100%] bg-dark-violet border-black border-4 absolute rounded-lg top-4 left-4 z-0"></div>
