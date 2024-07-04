@@ -11,11 +11,11 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-[35px]">PHONE</div> 
-          <div className="text-[28px]">+33 6 51 16 44 87</div> 
+          <a href="tel:+33651164487" className="text-[28px] hover:text-very-light-violet" >{"(+33) 6.51.16.44.87"}</a> 
         </div>
         <div>
           <div className="text-[35px]">EMAIL</div> 
-          <div className="text-[28px]">tifenn.lamure@hotmail.com</div> 
+          <a href="mailto:tifenn.lamure@hotmail.com" className="text-[28px] hover:text-very-light-violet">tifenn.lamure@hotmail.com</a>
         </div>
       </div>
     </>
