@@ -7,8 +7,8 @@ const Home = () => {
   return(
     <>
       <div className="h-[100vh] bg-light-violet flex items-center justify-around relative">
-        <img src={CloudBg} alt="drawing of the sky with clouds" className="w-full absolute z-0 object-fill" />
-        <div className="h-full w-full bg-black z-[5] absolute mix-blend-multiply opacity-[72%]"></div>
+        <img src={CloudBg} alt="drawing of the sky with clouds" className="w-full h-[100vh] absolute z-0 object-fill" />
+        <div className="h-[100vh] w-full bg-black z-[5] absolute mix-blend-multiply opacity-[72%]"></div>
         <div className="flex flex-col items-center z-20">
           <h1 className="text-7xl text-white">Tifenn LAMURE</h1>
           <h2 className="text-5xl text-white">Front-end developer</h2>

@@ -12,7 +12,7 @@ const MyProjects = () => {
         <CardProjects 
           ImgProjectSrc={OhMyFood} 
           AltImgProjectSrc="my project Oh My Food" 
-          TextProject="OH MY FOOD - The aim of this project was to create an application that allows users to reserve and select their ahead of time at prestigious restaurants. On arrival, everything will be ready to be served." 
+          TextProject="OH MY FOOD - The aim of this project was to create an application that allows users to reserve and select their dishes ahead of time at prestigious restaurants. On arrival, everything will be ready to be served." 
           SkillTab={['SASS','CSS','HTML']}
           LinkProject="https://github.com/Tifenn-Lamure/Openclassrooms-OhMyFood" 
         />
