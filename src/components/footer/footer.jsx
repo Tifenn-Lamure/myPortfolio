@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return(
     <>
-      <div className="w-full bg-dark-violet h-[20vh] border-t-4 border-black font-[600] px-[2rem] py-[1.5rem] flex flex-row justify-between z-30">
+      <div className="w-full bg-dark-violet h-[100%] border-t-4 border-black font-[600] px-[2rem] py-[1.5rem] flex flex-row justify-between z-30">
         <div >
           <div className="text-[35px]">ADRESS</div> 
           <div className="text-[28px]">29 rue Paul Déroulède,</div> 
