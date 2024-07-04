@@ -20,7 +20,7 @@ const MyProjects = () => {
           ImgProjectSrc={PortfolioArchi} 
           AltImgProjectSrc="my project porfolio architect" 
           TextProject="ARCHITECT'S PORTFOLIO - This website was created with the goal to create an architect's Portfolio. It was mostly to teach me vanilla JS."
-          SkillTab={['HTML', 'CSS', 'JAVASCRIPT']}
+          SkillTab={['API REST', 'CSS', 'JAVASCRIPT']}
           LinkProject="https://github.com/Tifenn-Lamure/Portfolio-architecte"
           IsAtLeft={false}
         />
