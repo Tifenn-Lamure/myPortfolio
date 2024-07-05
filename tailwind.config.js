@@ -23,8 +23,24 @@ module.exports = {
             transitionTimingFunction: 'ease-in-out',
             rotate: "-16deg"
           },
+        },
+        cloud: {
+          '0%, 100%': { 
+            transform: 'translateX(-1%)',
+          },
+          '50%': { 
+            transform: 'translateX(0)',
+          },
+        },
+        cloudReverse: {
+          '0%, 100%': { 
+            transform: 'translateX(0)',
+          },
+          '50%': { 
+            transform: 'translateX(-1%)',
+          },
         }
-      }
+      },
     },
   },
   plugins: [],

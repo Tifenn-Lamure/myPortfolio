@@ -1,23 +1,29 @@
 import React from "react";
-import TiaraPic from "./../../assets/img/TiaraPic.PNG";
 import QrcodePic from "./../../assets/img/qrcode.png";
 import SkillBtn from "../../components/SkillBtn/SkillBtn";
 import CvPdf from '../../assets/pdf/CV_Tifenn_LAMURE.pdf';
+import TifennResume from '../../assets/img/TifennResume.PNG';
+import CloudSimpleBG from '../../assets/img/CloudSimple.PNG';
+import CloudInfront from '../../assets/img/CloudInfront.PNG';
 
 const Resume = () => {
   return(
     <>
-      <div className="bg-dark-blue-violet w-full h-full flex flex-col gap-10">
+      <div className="bg-dark-blue-violet w-full h-full flex flex-col gap-10 ">
 
-        <div className="mt-[4em] flex justify-center w-full">
-          <div className="relative">
-            <div className="w-[80rem] h-[24rem] bg-white border-black border-4 relative rounded-lg z-10 flex gap-[6rem] px-[4rem] items-center justify-between">
-              <div className="flex flex-col gap-4">
-                <h2 className="text-light-violet text-[64px]">Tifenn LAMURE</h2>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ducimus modi et maiores odit enim itaque illum doloremque maxime architecto.</div>
+        <div className="mt-[5em] flex justify-center w-full">
+          <div className="relative h-[25rem]">
+            <div className="w-[80rem] h-[24rem] bg-white border-black border-4 relative rounded-lg z-10 overflow-clip flex items-center">
+              <img src={CloudSimpleBG} className="w-[110%] max-w-[200%] absolute top-[0.005rem] z-0 object-cover overflow-hidden animate-[cloud_3000ms_ease-in-out_infinite]" alt="background with clouds"/>
+              <img src={CloudInfront} className="w-[110%] max-w-[200%] absolute bottom-[-5rem] z-0 object-cover overflow-hidden animate-[cloudReverse_3000ms_ease-in-out_infinite]" alt="Clouds in the front line" />
+              <div className="flex gap-[6rem] px-[4rem] items-center justify-between">
+              <div className="flex flex-col gap-4 z-20">
+                <h2 className="text-dark-blue-violet text-[64px]">Tifenn LAMURE</h2>
+                <div className="w-[55rem] text-[22px]">Front developer specialized in animations and UX/UI designs thanks to my degree in art. I am seeking remote jobs opportunities worldwide.  So if you want a developer doing pretty and design website, I am the person you need!</div>
               </div>
-              <img src={TiaraPic} className="h-[120%] w-[150px] mb-[75px]" alt="drawing of me"/>
+              </div>
             </div>
+            <img src={TifennResume} className="h-[28rem] relative overflow-visible z-50 absolute bottom-[28.25rem] left-[57rem]" alt="drawing of me"/>
             <div className="h-[24rem] bg-light-violet w-[80rem] bg-dark-violet border-black border-4 absolute rounded-lg top-4 left-4 z-0"></div>
           </div>
         </div>
