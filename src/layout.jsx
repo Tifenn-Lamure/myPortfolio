@@ -6,6 +6,7 @@ import MyProjects from "./pages/myprojects/myprojects";
 import Resume from "./pages/myResume/myResume";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
+import NotFound404 from "./pages/notFound404/notFound404";
 import ScrollToTop from "./scrollToTop";
 
 
@@ -20,7 +21,7 @@ function RouterComponent() {
               <Route path="/" element={<Home/>}></Route>
               <Route path="/projects" element={<MyProjects/>}></Route>
               <Route path="/resume" element={<Resume/>}></Route>
-              {/* <Route path="/*" element={<NotFound404/>}></Route> */}
+              <Route path="/*" element={<NotFound404/>}></Route>
           </Routes>
           </div>
           <Footer/>
