@@ -7,7 +7,7 @@ import Kasa from "../../assets/img/Kasa.JPG";
 const MyProjects = () => {
   return(
     <>
-      <h2 className="text-light-violet text-[20px] xsm:text-[40px] ml-6 xsm:ml-8 my-6 xsm:my-8">My projects</h2>
+      <h2 className="text-light-violet text-[20px] sm:text-[40px] ml-6 sm:ml-8 my-6 sm:my-8">My projects</h2>
       <div className="flex flex-col mb-[5rem] gap-[3em]">
         <CardProjects 
           ImgProjectSrc={OhMyFood} 
