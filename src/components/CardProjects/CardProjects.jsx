@@ -25,7 +25,7 @@ function CardProjects ({ImgProjectSrc, AltImgProjectSrc, TextProject, LinkProjec
               ))}
               </div>
               <div className="flex flex-col items-center justify-center mt-[1rem]">
-                <a href={LinkProject} target="_blank" without="true" rel="noopener noreferrer" className="text-center text-[12px] sm:text-[18px] lg:text-[24px] text-white pb-[.5rem] hover:underline">Click for my repositories</a>
+                <a href={LinkProject} target="_blank" without="true" rel="noopener noreferrer" className="text-center text-[12px] sm:text-[18px] lg:text-[24px] text-white pb-[.5rem] hover:underline">Click to see the repository</a>
                 <button className="text-center text-[12px] sm:text-2xl text-center w-24 sm:w-48 bg-very-light-violet rounded-lg border-black border-2 relative z-10 hover:text-lg hover:h-8 hover:w-44 hover:leading-6" onClick={() => setViewMore(false)}>Less Details</button>
               </div>
             </div>
