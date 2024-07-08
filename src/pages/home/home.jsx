@@ -7,7 +7,7 @@ const Home = () => {
   return(
     <>
       <div className="xsm:h-[100vh] bg-light-violet flex items-center justify-around relative xsm:mb-0 overflow-hidden">
-        <img src={CloudBg} alt="drawing of the sky with clouds" className="w-full h-[100vh] absolute z-0 object-cover xsm:object-fill top-0"/>
+        <img src={CloudBg} alt="drawing of the sky with clouds" className="w-full h-[100vh] absolute z-0 object-cover top-0"/>
         <div className="h-[100vh] w-full bg-black z-[5] absolute mix-blend-multiply opacity-[72%] top-0"></div>
         <div className="flex flex-col items-center z-20 gap-[1.5em] mb-[1rem] mt-8 xsm:mt-0 xsm:gap-0">
           <h1 className="text-4xl text-center xsm:text-7xl text-white">Tifenn LAMURE</h1>

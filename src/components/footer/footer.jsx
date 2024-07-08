@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="bg-dark-violet border-t-4 border-black font-[600] px-6 xsm:px-10 py-[1.3rem] flex flex-col lg:flex-row gap-[1rem] justify-between z-30">
         <div>
-          <div className="text-[20px] xsm:text-[35px]">ADRESS</div> 
+          <div className="text-[20px] xsm:text-[35px]">ADDRESS</div> 
           <div className="text-[16px] xsm:text-[28px]">29 rue Paul Déroulède,</div> 
           <div className="text-[16px] xsm:text-[28px]">06000 Nice, FRANCE</div>
         </div>

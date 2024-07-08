@@ -6,10 +6,13 @@ import MyProjects from "./pages/myprojects/myprojects";
 import Resume from "./pages/myResume/myResume";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
+import ScrollToTop from "./scrollToTop";
+
 
 function RouterComponent() {
   return (
       <Router>
+        <ScrollToTop />
         <div className="flex flex-col">
           <Header/>
           <div className="w-full">
